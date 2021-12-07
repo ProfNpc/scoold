@@ -1784,7 +1784,7 @@ public final class ScooldUtils {
 					FILE_CACHE.put("theme", themeName);
 				}
 			}
-			loadedTheme = StringEscapeUtils.escapeEcmaScript(loadedTheme);
+			//loadedTheme = StringEscapeUtils.escapeEcmaScript(loadedTheme);
 			return loadedTheme + "\n/*** END OF THEME CSS ***/\n" + inline;
 		} catch (Exception e) {
 			logger.debug("Failed to load inline CSS.");
